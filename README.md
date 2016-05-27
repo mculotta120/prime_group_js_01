@@ -1,3 +1,5 @@
+our group was Mai L, Meg C, Oliver L, and Ted K. 
+
 # Group based STI activity
 
 You are going to write a single JavaScript file to automatically calculate employee STI (‘short term incentive’ or ‘bonus’) for a company.

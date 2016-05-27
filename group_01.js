@@ -14,8 +14,8 @@ var annualSti = function() {
     var salary = Number(employees[i][2]);
     var rating = employees[i][3];
     var adjustedAnnual = 0;
-    var bonus = 0;
-    var totalBonus = 0;
+    var bonus = Math.round(0);
+    var totalBonus = Math.round(0);
  //gets 15yr bonus eligible employees
    if (empNumber.length == 4) {
       bonus += 0.05;
@@ -43,7 +43,7 @@ var annualSti = function() {
       bonus = 0.13;
     }
 //sums salary and bonus
-    adjustedAnnual = Math.round(salary) + (salary * bonus);
+    (adjustedAnnual) = Math.round(salary) + Math.round(salary * bonus);
 //sums bonus
     totalBonus = Math.round(salary * bonus);
 //new array

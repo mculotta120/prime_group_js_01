@@ -43,7 +43,7 @@ var annualSti = function() {
       bonus = 0.13;
     }
 //sums salary and bonus
-    (adjustedAnnual) = Math.round(salary) + Math.round(salary * bonus);
+    adjustedAnnual = (salary) + Math.round(salary * bonus);
 //sums bonus
     totalBonus = Math.round(salary * bonus);
 //new array
